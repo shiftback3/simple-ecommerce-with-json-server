@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "firstName": "Henry",
+      "lastName": "Doyle",
+      "password": "0123456789",
+      "role": "admin",
+      "token": "abcdefghijklmnopqrstuvwxyz"
+    },
+    {
+      "id": "2",
+      "email": "you@example.com",
+      "firstName": "Karen",
+      "lastName": "Miller",
+      "password": "1234567890",
+      "role": "user",
+      "token": "zbcdefghijklmnopqrstuvwxya"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Cosmetic plastic compact powder",
+      "description": "This is the best makeup powder you can get in the market",
+      "category": "cosmetics",
+      "price": "3400",
+      "quantity": 4,
+      "image": "assets/images/products/product-image-1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Cosmetics and makeup brushes",
+      "description": "Quality Cosmetic Brushes",
+      "category": "cosmetics",
+      "price": "5000",
+      "quantity": 4,
+      "image": "assets/images/products/product-image-2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Cosmetic elements",
+      "description": "This is Cosmetic Elements",
+      "category": "cosmetics",
+      "price": "3400",
+      "quantity": 4,
+      "image": "assets/images/products/product-image-3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Cosmetic packs",
+      "description": "This is Cosmetic Elements",
+      "category": "cosmetics",
+      "price": "3400",
+      "quantity": 4,
+      "image": "assets/images/products/product-image-4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Cosmetic elements2",
+      "description": "This is Cosmetic Elements",
+      "category": "cosmetics",
+      "price": "3400",
+      "quantity": 4,
+      "image": "assets/images/products/product-image-5.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Cosmetic Foundation",
+      "description": "This is Cosmetic Elements",
+      "category": "cosmetics",
+      "price": "3400",
+      "quantity": 4,
+      "image": "assets/images/products/product-image-6.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "product_id": "3",
+      "product_name": "Cosmetic elements",
+      "price": "3400",
+      "quantity": "2",
+      "txn_ref": "123kewkd",
+      "status": "completed"
+    },
+    {
+      "id": "2",
+      "name": "Cosmetics and makeup brushes",
+      "description": "Quality Cosmetic Brushes",
+      "category": "cosmetics",
+      "price": "5000",
+      "quantity": 4,
+      "image": "assets/images/products/product-image-2.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Cosmetic Foundation",
+      "description": "This is Cosmetic Elements",
+      "category": "cosmetics",
+      "price": "3400",
+      "quantity": 4,
+      "image": "assets/images/products/product-image-6.jpg"
+    }
+  ]
+}
